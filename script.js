@@ -22,6 +22,27 @@ math.random for computer variable which will be S, P or R
 
 */
 
-var r;
-var p;
-var s;
+
+var hand = {
+    r:function
+    p:
+    s:
+
+}
+
+var selection = prompt(
+  "welcome to our rock, paper, scissors game! You will be playing against the computer. Enter r for rock, s for scissors or p for paper"
+);
+
+function runGame(selection) {
+  var computer = math.random(hand);
+  if (selection === r && computer === p) {
+    var outcome = alert("you lost!");
+  }
+  if (selection === s && computer === p) {
+    var outcome = alert("you lost!");
+  }
+  if (selection === r && computer === p) {
+    var outcome = alert("you lost!");
+  }
+}
